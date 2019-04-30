@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <link rel="icon" href="img/logo.jpg" />
+    <title>House Attendance Statistics</title>
+
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#"><img class="logo" width="50" height="50" src="img/logo.png" alt=""></a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="home-starter-page.html">Home</a></li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Congress 113
+                        <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="senate-starter-page.html">Senate</a></li>
+                        <li><a href="house-starter-page.html">House</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Attendance
+                        <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="House_Attendance_statistics.html">House</a></li>
+                        <li><a href="Senate_Attendance_statistics.html">Senate</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Party Loyalty
+                        <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="House_Party_Loyalty.html">House</a></li>
+                        <li><a href="Senate_Party_Loyalty.html">Senate</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"><span class=></span> 📧info@gif.com</a></li>
+            </ul>
+        </div>
+    </nav>
+    </div>
+
+
+    <header>
+        <div>
+        </div>
+    </header>
+
+    <!--Table container-->
+    <div class="contenedor container">
+        <div class="row">
+            <div class="col-sm-12 col-md-6">
+                <h2>Attendance</h2>
+                <p>The Constitution specifies that a majority of members constitutes a quorum to do business in each
+                    house.
+                    Representatives and senators rarely force the presence of a quorum by demanding quorum calls; thus,
+                    in
+                    most
+                    cases, debates continue even if a majority is not present.</p>
+
+                <p>The Senate uses roll-call votes; a clerk calls out the names of all the senators, each senator
+                    stating
+                    "aye"
+                    or "no" when his or her name is announced. The House reserves roll-call votes for the most formal
+                    matters,
+                    as a roll-call of all 435 representatives takes quite some time; normally, members vote by
+                    electronic
+                    device. In the case of a tie, the motion in question fails. In the Senate, the Vice President may
+                    (if
+                    present) cast the tiebreaking vote.</p>
+            </div>
+            <div class="col-sm-12 col-md-6">
+                <h2>Senate at a glance</h2>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Party</th>
+                            <th>Number of Reps</th>
+                            <th>% Voted with Party</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tbody">
+                        <tr>
+                            <td>Republican</td>
+                            <td id="numRep">--</td>
+                            <td id="mediaRep"></td>
+                        </tr>
+                        <tr>
+                            <td>Democrat</td>
+                            <td id="numDem">--</td>
+                            <td id="mediaDem"></td>
+                        </tr>
+                        <tr>
+                            <td>Independent</td>
+                            <td id="numInd"></td>
+                            <td id="mediaInd"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-12 col-md-6">
+        <h2>Least Engaged (Bottom 10% Attendance)</h2>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Number of Missed Votes</th>
+                    <th>% Missed</th>
+                </tr>
+            </thead>
+            <tbody id="presis">
+
+            </tbody>
+        </table>
+
+    </div>
+    <div class="col-sm-10 col-md-6">
+        <h2>Most Engaged (Top 10% Attendance)</h2>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Number of Missed Votes</th>
+                    <th>% Missed</th>
+                </tr>
+            </thead>
+            <tbody id="presisTop">
+
+            </tbody>
+        </table>
+    </div>
+    </div>
+
+    <script src="js/congress-113-senate.js"></script>
+
+    <script src="js/statistics.js"></script>
+    <footer>
+        <p>All rights reserved</p>
+    </footer>
+</body>
+
+</html>

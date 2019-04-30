@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+  <link rel="stylesheet" type="text/css" href="css/estilos.css">
+  <link rel="icon" href="img/logo.jpg" />
+  <title>Home</title>
+
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+</head>
+
+<body class="home">
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#"><img class="logo" width="50" height="50" src="img/logo.png" alt=""></a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="home-starter-page.html">Home</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Congress 113
+            <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="senate-starter-page.html">Senate</a></li>
+            <li><a href="house-starter-page.html">House</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Attendance
+            <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="House_Attendance_statistics.html">House</a></li>
+            <li><a href="Senate_Attendance_statistics.html">Senate</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Party Loyalty
+            <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="House_Party_Loyalty.html">House</a></li>
+            <li><a href="Senate_Party_Loyalty.html">Senate</a></li>
+          </ul>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class=></span> 📧info@gif.com</a></li>
+      </ul>
+    </div>
+  </nav>
+  </div>
+
+
+
+
+  <!--Accordion wrapper-->
+  <div class="acordeon">
+    <div class="accordion md-accordion accordion-1" id="accordionEx23" role="tablist">
+      <div class="card">
+        <div class="card-header blue lighten-3 z-depth-1" role="tab" id="heading96">
+          <h5 class="text-uppercase mb-0 py-1">
+            <a class="white-text font-weight-bold" data-toggle="collapse" href="#collapse96" aria-expanded="true"
+              aria-controls="collapse96">
+              <h2>▶About Us 👇</h2>
+            </a>
+          </h5>
+        </div>
+        <div id="collapse96" class="collapse" role="tabpanel" aria-labelledby="heading96">
+          <div class="card-body">
+            <div class="row my-4">
+              <div class="col-md-8">
+                <h2 class="font-weight-bold mb-3 black-text"></h2>
+                <p>Openness, accountability, and honesty define government transparency. In a free society, transparency
+                  is
+                  government's obligation to share information with citizens. It is at the heart of how citizens hold
+                  their
+                  public
+                  officials accountable. Here at TGIF we believe that government should be transparent.</p>
+                <p>Governments exist to serve the people. Information on how officials conduct the public business and
+                  spend
+                  taxpayer money must be readily available and easily understood. This transparency allows good and just
+                  governance.
+                  Transparency promotes accountability and provides information for citizens about what their Government
+                  is
+                  doing.
+                </p>
+                <p>We also believe that government should be participatory. Public engagement enhances the Government's
+                  effectiveness and improves the quality of its decisions. Knowledge is widely dispersed in society, and
+                  public
+                  officials benefit from having access to that dispersed knowledge. We invite you to use our site to
+                  become
+                  actively
+                  engaged in American government.</p>
+                <p>TGIF works to disclose information in forms that the public can readily find and use. We solicit
+                  public
+                  feedback
+                  to identify information of greatest use to the public.</p>
+              </div>
+              <div class="col-md-4 mt-3 pt-2">
+                <div class="view z-depth-1">
+                  <img
+                    src=data:image/jpeg;base64,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
+                    alt="" class="img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header blue lighten-3 z-depth-1" role="tab" id="heading97">
+          <h5 class="text-uppercase mb-0 py-1">
+            <a class="collapsed font-weight-bold white-text" data-toggle="collapse" href="#collapse97"
+              aria-expanded="false" aria-controls="collapse97">
+              <h2>▶Background History of Government Transparency👇</h2>
+            </a>
+          </h5>
+        </div>
+        <div id="collapse97" class="collapse" role="tabpanel" aria-labelledby="heading97" data-parent="#accordionEx23">
+          <div class="card-body">
+            <div class="row my-4">
+              <div class="col-md-8">
+                <h2 class="font-weight-bold mb-3 black-text"></h2>
+                <p>In the West, the idea that government should be open to public scrutiny and susceptible to public
+                  opinion
+                  dates
+                  back at least to the time of the Enlightenment, when many philosophes made an attack on absolutist
+                  doctrine
+                  of
+                  state secrecy, a core part of their intellectual project. The passage of formal legislative
+                  instruments
+                  to
+                  this
+                  end can also be traced to this time with Sweden, for example, (which then included Finland as a
+                  Swedish-governed
+                  territory) enacting free press legislation as part of its constitution (Freedom of the Press Act,
+                  1766).
+                  This
+                  approach, and that of the philosophes more broadly, is strongly related to recent historiography on
+                  the
+                  eighteenth-century public sphere.
+
+                  <p>Influenced by Enlightenment thought, the revolutions in America (1776) and France (1789), freedom
+                    of
+                    the
+                    press
+                    enshrined provisions and requirements for public budgetary accounting and freedom of the press in
+                    constitutional
+                    articles. In the nineteenth century, attempts by Metternichean statesmen to row back on these
+                    measures
+                    were
+                    vigorously opposed by a number of eminent liberal politicians and writers, Bentham, Mill and Acton
+                    prominent
+                    among the latter.</p>
+
+                  <p>Open government is widely seen to be a key hallmark of contemporary democratic practice and is
+                    often
+                    linked
+                    to
+                    the passing of freedom of information legislation. Scandinavian countries claim to have adopted the
+                    first
+                    freedom of information legislation, dating the origins of its modern provisions to the eighteenth
+                    century
+                    and
+                    Finland continuing the presumption of openness after gaining independence in 1917, passing its Act
+                    on
+                    Publicity
+                    of Official Documents in 1951 (superseded by new legislation in 1999).</p>
+
+                  <p>The United States passed its Freedom of Information Act (FOIA) in 1966, FOIAs, Access to
+                    Information
+                    Acts
+                    (AIAs) or equivalent laws were passed in Denmark and Norway in 1970.</p>
+              </div>
+              <div class="col-md-4 mt-3 pt-2">
+                <div class="view z-depth-1">
+                  <img
+                    src=https://www.elplural.com/uploads/s1/16/06/8/rajoy-20a-20menudo-20se-20lia-20con-20la-20lengua-20pero-20siempre-20hay-20un-20funcionario-20dispuesto-20a-20coloc-c3-a1rsela-0.png
+                    alt="" width="60%" class="img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header blue lighten-3 z-depth-1" role="tab" id="heading98">
+          <h5 class="text-uppercase mb-0 py-1">
+            <a class="collapsed font-weight-bold white-text" data-toggle="collapse" href="#collapse98"
+              aria-expanded="false" aria-controls="collapse98">
+              <h2> ▶LINK TO WHITEHOUSE 👇</h2>
+            </a>
+          </h5>
+        </div>
+        <div id="collapse98" class="collapse" role="tabpanel" aria-labelledby="heading98" data-parent="#accordionEx23">
+          <div class="card-body">
+            <div class="row my-4">
+              <div class="col-md-8">
+                <h2 class="font-weight-bold mb-3 black-text"></h2>
+                <p><a
+                    href=https://www.whitehouse.gov/the_press_office/TransparencyandOpenGovernment>https://www.whitehouse.gov/the_press_office/TransparencyandOpenGovernment
+                    </a> </p> <img
+                    src=https://media.metrolatam.com/2018/12/29/barackobama04-ba3c0c481c307ead52a4469c620532d5-1200x600.jpg
+                    alt="" width="50%" class="img-fluid">
+              </div>
+              <div class="col-md-4 mt-3 pt-2">
+                <div class="view z-depth-1">
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Accordion wrapper-->
+
+
+
+
+  <footer>
+    <p>All rights reserved</p>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <link rel="icon" href="img/logo.jpg" />
+    <title>House</title>
+
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <!--<div class="container-fluid"> -->
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#"><img class="logo" width="50" height="50" src="img/logo.png" alt=""></a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="home-starter-page.html">Home</a></li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Congress 113
+                        <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="senate-starter-page.html">Senate</a></li>
+                        <li><a href="house-starter-page.html">House</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Attendance
+                        <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="House_Attendance_statistics.html">House</a></li>
+                        <li><a href="Senate_Attendance_statistics.html">Senate</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Party Loyalty
+                        <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="House_Party_Loyalty.html">House</a></li>
+                        <li><a href="Senate_Party_Loyalty.html">Senate</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"><span class=></span> 📧info@gif.com</a></li>
+            </ul>
+        </div>
+    </nav>
+    </div>
+    <!--Table container-->
+
+    <div class="senate-house">
+        <h2>Congressmen</h2>
+        <p>The major power of the House is to pass federal legislation that affects the entire country, although its
+            bills must also be passed by the Senate and further agreed to by the U.S. President before becoming law
+            (unless both the House and Senate re-pass the legislation with a two-thirds majority in each chamber). The
+            House has some exclusive powers: the power to initiate revenue bills, to impeach officials (impeached
+            officials are subsequently tried in the Senate), and to elect the U.S. President in case there is no
+            majority in the Electoral College.</p>
+        <p>Each U.S. state is represented in the House in proportion to its population as measured in the census, but
+            every state is entitled to at least one representative. </p>
+        <input type="checkbox" value="Republican" id="rep">Republican
+        <input type="checkbox" value="Republican" id="dem">Democrat
+        <input type="checkbox" value="Republican" id="ind">Independent
+        <select id="MyDropdown">
+            <option id="all">ALL</option>
+        </select>
+
+        <div class="container">
+
+
+
+        </div>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>NAME</th>
+                    <th>PARTY</th>
+                    <th>STATE</th>
+                    <th>YEARS IN OFFICE</th>
+                    <th>%VOTES W/PARTY</th>
+                </tr>
+            </thead>
+            <tbody id="miTabla"></tbody>
+        </table>
+    </div>
+
+
+    <script src="js/congress-113-house.js"></script>
+
+    <script src="js/main.js"></script>
+
+    <footer>
+        <p>All rights reserved cualquier copia ilegal te pegamos una paliza</p>
+    </footer>
+
+</body>
+
+</html>

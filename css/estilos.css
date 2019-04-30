@@ -1,0 +1,181 @@
+
+body{
+margin-bottom: 45%;
+margin: 0;
+}
+/*
+h1 {
+    color:#FC0;
+    border-top: 2px solid #FFF;
+    border-bottom:2px solid #FFF;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+p{
+    color: #FC0;
+    font-size: 2cm;
+}
+
+p.span {font-size: 2em;
+} */
+
+.home{
+    margin-bottom: 10px;
+}
+
+.img-fluid{
+    margin:50px;
+}
+
+.obama{
+    margin-right: 10%;
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+}
+
+.navbar-brand{
+    padding: 0;
+    padding-left: 10px;
+}
+
+
+/* Estilos para la tabla */
+
+.senate-house{
+    margin:2%;
+    /* margin-top: 5%; */
+}
+.table{
+    border-radius: 1%;
+    border-color:black;
+    border-style: solid;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0%;
+    
+}
+
+.table td th{
+
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+
+.table tr:nth-child(even){background-color: #eef113;}
+
+.table tr:hover {background-color: rgb(12, 238, 238);}
+
+.table th {
+padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+
+.acordeon{
+    margin-left:15px;
+    margin: 5%;
+}
+
+/* Estilos del footer */
+
+footer {
+
+    flex: 1 1 100%;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 0%;
+}
+    
+    .footer div {
+        display:flex;
+    }
+     /*
+    display: flex;
+    justify-content: center;
+    top: 100%;
+    color: white;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 100px;
+    margin-bottom: 80px; */
+    /* position:fixed; */
+    
+  
+
+
+
+/* Senate_Attendance y House_Attendance */
+
+.Attendance{
+    float:left;
+    padding: 10px;
+    width: 40%;
+    margin: 0% 0% 0% 2%;
+    
+} 
+
+.Senate_at_a_Glance{
+     
+    margin-left:53%;
+}
+
+.House_at_a_Glance{
+    margin-left:53%;
+}
+
+.Least_Engaged {
+    
+    margin: 13% 56% 0% 3%;
+    
+    position: relative;
+}
+
+.Most_Engaged{
+    
+    margin: 5% 50% 0% 3%;
+    
+    right: -40%;
+    bottom: 0%;
+}
+
+.contenedor{
+    padding:10px;
+}
+
+/* Party Loyalty y house Loyalty */
+
+.Party_Loyalty{
+    float:left;
+    padding: 10px;
+    width: 40%;
+    margin: 0% 0% 0% 2%;
+    
+} 
+
+
+.Least_Loyal{
+    margin: 13% 56% 0% 3%;
+    
+    position: relative;
+}
+
+
+.Most_Loyal{
+    margin: 5% 50% 0% 3%;
+    
+    right: -30%;
+    bottom: 0%;
+}
